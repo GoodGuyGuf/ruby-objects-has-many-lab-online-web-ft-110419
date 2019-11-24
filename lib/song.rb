@@ -20,6 +20,7 @@ attr_accessor :artist, :name
       false
     else
       nil
+    end
   end
 
 end
