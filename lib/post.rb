@@ -8,6 +8,9 @@ attr_accessor :author, :name
     @@all << self
   end
 
+  def self.all
+    @all
+  end
 
 
 
