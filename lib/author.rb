@@ -19,6 +19,7 @@ attr_accessor :name
     binding.pry
     post = Post.new(name)
     add_post(post)
+    post.name
   end
 
   def self.post_count
