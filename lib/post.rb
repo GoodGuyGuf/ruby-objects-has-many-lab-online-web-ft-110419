@@ -14,7 +14,7 @@ attr_accessor :author, :name
   end
 
   def title
-    binding.pry
+    @name
   end
 
   def author_name
