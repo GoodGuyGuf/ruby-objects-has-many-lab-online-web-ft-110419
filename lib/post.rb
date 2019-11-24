@@ -12,11 +12,9 @@ attr_accessor :author, :name
     @all
   end
 
-
-
-
-
-
+  def author_name
+    
+  end
 
 
 end
