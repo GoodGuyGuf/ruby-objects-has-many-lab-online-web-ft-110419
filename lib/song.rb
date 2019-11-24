@@ -18,5 +18,6 @@ attr_accessor :artist, :name
     until artist = artist.name
       return nil
     end
+  end
 
 end
