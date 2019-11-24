@@ -7,6 +7,8 @@ attr_accessor :name
     @name = name
   end
 
+  def posts
+    Post.all.select{|song| song.artist == self}
 
 
 
