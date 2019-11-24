@@ -16,7 +16,7 @@ attr_accessor :author, :name
   def title
     binding.pry
   end
-  
+
   def author_name
     if self.author.nil?
       nil
