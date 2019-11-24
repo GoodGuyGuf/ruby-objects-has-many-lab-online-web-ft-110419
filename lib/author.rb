@@ -16,7 +16,6 @@ attr_accessor :name
   end
 
   def add_post_by_title(name)
-    binding.pry
     post = Post.new(name)
     add_post(post)
     post.name
