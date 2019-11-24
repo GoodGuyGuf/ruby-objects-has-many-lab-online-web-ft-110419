@@ -1,4 +1,4 @@
-require 'Pry'
+require 'pry'
 class Author
 
   def initialize(name)
