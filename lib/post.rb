@@ -1,7 +1,7 @@
 require 'pry'
 class Post
 
-attr_accessor :author, :name, :title
+attr_accessor :author, :name
 @@all = []
 
   def initialize(name)
