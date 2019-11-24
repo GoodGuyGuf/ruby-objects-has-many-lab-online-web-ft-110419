@@ -16,7 +16,10 @@ attr_accessor :artist, :name
 
   def artist_name
     binding.pry
-    self.artist.name
+    if self.artist.name == " "
+      false
+    else
+      nil
   end
 
 end
