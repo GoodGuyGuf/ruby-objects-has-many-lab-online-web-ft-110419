@@ -13,7 +13,7 @@ attr_accessor :author, :name, :title
     @@all
   end
 
-  def title
+  def title(title)
     binding.pry
   end
 
