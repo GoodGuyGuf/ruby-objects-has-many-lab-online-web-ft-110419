@@ -23,5 +23,5 @@ attr_accessor :name
   def self.count
 
   end
-  
+
 end
