@@ -15,12 +15,13 @@ attr_accessor :name
 
   end
 
-  def add_post_by_title
-
+  def add_post_by_title(name)
+    post = Post.new(name)
+    add_post(name)
   end
 
   def self.post_count
-  Post.all.count
+    Post.all.count
   end
 
 end
