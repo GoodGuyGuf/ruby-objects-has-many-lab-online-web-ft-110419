@@ -18,5 +18,4 @@ attr_accessor :artist, :name
 
   end
 
-
 end
