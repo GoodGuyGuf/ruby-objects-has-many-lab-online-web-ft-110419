@@ -15,7 +15,7 @@ attr_accessor :artist, :name
   end
 
   def artist_name
-    binding.pry
+    
   if self.artist.name
   end
   end
