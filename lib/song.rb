@@ -15,12 +15,7 @@ attr_accessor :artist, :name
   end
 
   def artist_name
-    song_artist = self.artist.name
-    if song_artist == " "
-      false
-    else
-      nil
-    end
+  self.artist.name
   end
 
 end
