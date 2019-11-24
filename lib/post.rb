@@ -12,6 +12,10 @@ attr_accessor :author, :name
     @@all
   end
 
+  def title
+    title
+  end
+  
   def author_name
     if self.author.nil?
       nil
