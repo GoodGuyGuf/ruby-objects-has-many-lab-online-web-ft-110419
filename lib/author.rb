@@ -8,7 +8,7 @@ attr_accessor :name
   end
 
   def posts
-    Post.all.select{|post| post.Author == self}
+    Post.all.select{|post| post.author == self}
   end
 
 
