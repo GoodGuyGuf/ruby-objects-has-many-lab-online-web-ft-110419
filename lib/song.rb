@@ -18,6 +18,7 @@ attr_accessor :artist, :name
     if !self.artist.name
     else
       return nil
+    end
   end
 
 end
