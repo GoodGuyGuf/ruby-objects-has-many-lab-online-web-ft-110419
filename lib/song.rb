@@ -15,6 +15,8 @@ attr_accessor :artist, :name
   end
 
   def artist_name
-    
+    until artist = artist.name
+      return nil
+    end
 
 end
